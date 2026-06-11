@@ -1,7 +1,7 @@
 ﻿# ymh-rpc
 
 <p align="center">
-  <strong>🚀 一个轻量级 Java RPC 框架</strong>
+  <strong>一个轻量级 Java RPC 框架</strong>
 </p>
 
 <p align="center">
@@ -123,10 +123,3 @@ rpc.tolerantStrategy=failFast
 | `ymh-rpc-core` | 完整版实现，包含 SPI 加载器、多种序列化/负载均衡/容错/重试策略、ZooKeeper 注册中心 |
 | `ymh_rpc_spring_boot_starter` | Spring Boot Starter，提供 `@EnableRpc`、`@RpcReference`、`@RpcService` 注解 |
 
-## 📄 License
-
-MIT License
-
----
-
-**作者**：ymh-coder
