@@ -1,0 +1,3 @@
+json=com.ymh.ymhrpc.serializer.JsonSerializer
+kryo=com.ymh.ymhrpc.serializer.KryoSerializer
+hessian=com.ymh.ymhrpc.serializer.HessianSerializer
