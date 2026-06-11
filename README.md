@@ -12,11 +12,11 @@
 
 ---
 
-## 📖 简介
+## 简介
 
 **ymh-rpc** 是一个从零构建的轻量级 Java RPC（远程过程调用）框架，支持多种序列化方式、注册中心、负载均衡、容错机制和重试策略，并提供了 Spring Boot Starter 便于快速集成。
 
-## 🏗️ 项目结构
+## 项目结构
 
 ```
 ymh-rpc
@@ -30,7 +30,7 @@ ymh-rpc
 └── example_springboot_provider   # Spring Boot 提供者示例
 ```
 
-## ✨ 核心特性
+##  核心特性
 
 - **多种序列化方式**：支持 JDK、JSON（Jackson）、Hessian、Kryo 四种序列化协议
 - **注册中心**：支持 ZooKeeper 和 Etcd 作为服务注册与发现中心
@@ -42,7 +42,7 @@ ymh-rpc
 - **Spring Boot 集成**：提供 `@EnableRpc` 注解和自动配置，无缝集成 Spring Boot
 - **双检锁单例**：全局配置采用线程安全的双检锁单例模式
 
-## 🚀 快速开始
+## 快速开始
 
 ### 环境要求
 
@@ -115,7 +115,7 @@ rpc.retryStrategy=fixedInterval
 rpc.tolerantStrategy=failFast
 ```
 
-## 📦 模块说明
+## 模块说明
 
 | 模块 | 说明 |
 |------|------|
